@@ -70,12 +70,18 @@ L'agent a été entraîné sur 1000 épisodes. Au cours de l'entraînement :
 
 Le modèle entraîné a été testé sur 10 épisodes :
 
-**Taux de réussite** : [À compléter après exécution du test]
+**Taux de réussite** : 10/10 (100%)
+
+### Performances observées
+
+- **Score moyen** : 5 points par épisode
+- **Nombre d'étapes** : 6 étapes (chemin optimal)
+- **Chemin trouvé** : (0,0) → (0,1) → (0,2) → (0,3) → (1,3) → (2,3) → (3,3)
 
 L'agent entraîné est capable de :
-- Naviguer efficacement de (0,0) vers (3,3)
-- Éviter l'obstacle en (1,1)
-- Trouver le chemin optimal en un minimum d'étapes
+- Naviguer efficacement de (0,0) vers (3,3) avec un taux de réussite de 100%
+- Éviter l'obstacle en (1,1) en contournant par le haut
+- Trouver un chemin optimal en 6 étapes de manière consistante
 
 ## Utilisation
 
